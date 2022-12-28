@@ -14,8 +14,8 @@ export default function Home() {
   const handleSubmit = async () => {
     const data = {
       id: studentId,
-      thumbnail: bannerImage,
-      img: profileImage,
+      thumbnail: profileImage,
+      img: bannerImage,
     };
     if (option == 1) {
       try {
